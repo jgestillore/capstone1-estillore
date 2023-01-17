@@ -3,11 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-section{
-	height: 100%;
-	margin-block: 2rem;
-
+body{
+  overflow-x: hidden;
 }
 
 #left-nav{
@@ -33,7 +30,6 @@ section{
   max-height: 100%;
 }
 #home{
-  left: 20%;
   background-image: url(../images/bg-image.png);
   background-position: 100% 70%;
   background-size: cover;
