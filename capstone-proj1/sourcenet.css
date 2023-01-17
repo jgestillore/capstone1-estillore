@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+	height: 100%;
+	margin-block: 2rem;
+
+}
+/*body{
+	overflow-y: hidden;
+  overflow-x: hidden;
+}*/
+#left-nav{
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  max-width: 20%;
+  min-width: 10%;
+}
+
+#content{
+  min-width: 100%;
+}
+#home, #headingzero, .card, body{
+  background-color: #E1C5FF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#home h3{
+  font-family: "Barlow", sans-serif;
+  font-size: 8vw;
+  max-height: 100%;
+}
+#home{
+  left: 20%;
+  background-image: url(../images/bg-image.png);
+  background-position: 100% 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#headingzero{
+  background-image: url(../images/bg-image.png);
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+hr{
+  border: 0.3rem dashed #B87333;
+
+}
+#abtme, #headingOne{
+  background-image: url(../images/me-diving.jpg);
+  background-blend-mode: hard-light;
+  background-position: 50% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #09184F;
+}
+
+#proj, #headingTwo{
+  background-image: url(../images/bg-image2.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #09184F;
+}
+.collapse{
+  background-color: darkgrey;
+}
+
+.card>div, section{
+  font-family: "Raleway", serif;
+}
+
+
