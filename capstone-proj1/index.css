@@ -3,9 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  overflow-x: hidden;
-}
+
 
 #left-nav{
   position: fixed;
@@ -69,5 +67,8 @@ hr{
 .card>div, section{
   font-family: "Raleway", serif;
 }
+section{
+  max-width: 100%;
 
+}
 
