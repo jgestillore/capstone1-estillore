@@ -9,12 +9,8 @@ section{
 	margin-block: 2rem;
 
 }
-/*body{
-	overflow-y: hidden;
-  overflow-x: hidden;
-}*/
+
 #left-nav{
-  display: flex;
   position: fixed;
   top: 0;
   height: 100%;
