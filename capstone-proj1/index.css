@@ -16,7 +16,7 @@
 #content{
   min-width: 100%;
 }
-#home, #headingzero, .card, body{
+.card, body{
   background-color: #E1C5FF;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,11 +32,11 @@
   background-position: 100% 70%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 #headingzero{
   background-image: url(../images/bg-image.png);
-  background-position: center center;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -69,6 +69,12 @@ hr{
 }
 section{
   max-width: 100%;
-
 }
 
+.card-label{
+  color: white;
+  max-height: 100%;
+}
+*{
+  outline: 2px solid red;
+}
